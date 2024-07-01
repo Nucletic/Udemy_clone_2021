@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/tab.png" sizes="16x16">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign up and start learning | Udemy</title>
+</head>
+
+<body>
+    <section id="header">
+        <div class="nav">
+            <ul>
+                <li><a href="index.html"><img src="images/logo-udemy.svg" class="logo"></a></li>
+                <li><a href="" class="cate">Categories</a></li>
+                <li>
+                    <form class="form"><i class="fa fa-search"></i>
+                        <input type="search" placeholder="Search for anything">
+                    </form>
+                </li>
+                <li><a href="" class="buss">Udemy Bussiness</a></li>
+                <li><a href="" class="teach">Teach on Udemy</a></li>
+                <li><a href=""><i class="fa fa-shopping-cart"></i></a></li>
+                <li><a href="login.html" class="log-in">Log in</a></li>
+                <li><a href="signup.html" class="sign-up">Sign up</a></li>
+                <li><a href=""><i class="fa fa-globe globe2"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <div class="login">
+        <h4 class="login-title">Sign Up and Start Learning!</h4>
+        <form action="sign-up.php" method="post" class="log-in-form">
+            <div class="name"><i class="fa fa-user"></i><input type="text" placeholder="Full Name" name="name"></div>
+            <div class="email"><i class="fa fa-envelope"></i><input type="email" placeholder="Email" name="email"></div>
+            <div class="password"><i class="fa fa-lock"></i><input type="password" placeholder="Password"
+                    name="password"></div>
+            <div class="password-strength-div">
+                <div class="password-strength"></div>
+                <div class="password-strength"></div>
+                <div class="password-strength"></div>
+                <div class="password-strength"></div>
+            </div>
+            <div class="input-check">
+                <input type="checkbox" name="accepted" class="accepted  side-by-side"><label class="side-by-side"
+                    for="accepted">
+                    <p> I’m in for emails with exciting discounts and<br> personalized recommendations</p>
+                </label>
+            </div>
+
+            <input type="submit" class="submit" value="Sign Up" name="submit">
+        </form>
+        <div class="after-sign-up">
+            <p>By signing up, you agree to our<a href=""> Terms of Use</a> and<a href=""> Privacy Policy.</a></p>
+            <h4>Already have an account? <a href="login.html">Log In</a></h4>
+        </div>
+
+    </div>
+    <div class="trust-for-login">
+        <div class="trust-login">
+            <h1>Top companies choose <a href="">Udemy Business</a> to build in-demand career skills.</h1>
+            <div class="trust">
+                <img src="images/top1.svg">
+                <img src="images/top2.svg">
+                <img src="images/top3.svg">
+                <img src="images/top4.svg">
+                <img src="images/top5.svg">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerlink1 footerlink">
+            <a href="">Udemy Business</a><br>
+            <a href="">Teach on Udemy</a><br>
+            <a href="">Get the app</a><br>
+            <a href="">About us</a><br>
+            <a href="">Contact us</a>
+        </div>
+        <div class="footerlink2 footerlink">
+            <a href="">Careers</a><br>
+            <a href="">Blog</a><br>
+            <a href="">Help and Support</a><br>
+            <a href="">Affiliate</a><br>
+            <a href="">Investors</a>
+        </div>
+        <div class="footerlink3 footerlink">
+            <a href="">Terms</a><br>
+            <a href="">Privacy policy</a><br>
+            <a href="">Sitemap</a><br>
+            <a href="">Accessibility statement</a>
+        </div>
+        <div class="lang footerlink">
+            <a href=""><i class="fa fa-globe" aria-readonly="true"></i>English</a>
+        </div>
+        <div class="footer-udemy">
+            <img src="images/logo-udemy-white.svg" class="footer-udemy-logo">
+            <div class="copy">
+                <p>© 2021 Udemy, Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
